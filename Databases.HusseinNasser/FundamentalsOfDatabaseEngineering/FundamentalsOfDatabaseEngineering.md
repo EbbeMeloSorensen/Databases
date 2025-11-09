@@ -11,16 +11,27 @@ Hands on kursus om database engineering
 
 ## Den røde tråd
 
-### Section 1: ...
+Han betoner, at kurset henvender sig til folk, der har noget erfaring med databaser og sql men ikke så  meget erfaring med aspekter, som man kommer op imod for rigtige industrielle projekter såsom indexering, partitionering, sharding osv. Han nævner, at han har prøvet at lave det kursus, han selv ville have ønsket at han havde som yngre.
+
+### Section 1: Course Updates
+
+..
+
+### Section 2: ACID
 
 ...
 
-### Section 2: ...
+### Section 3: Understanding Database Internals
 
 ...
 
-create table temp(t int)
-insert into temp(t) select random()*100 from generate_series(1, 1000000)
+### Section 4: Database Indexing
 
-select * from temp limit 10
-select count(*) from temp
+...
+
+### Section 5: B-Tree vs B+Tree in Production Database Systems
+
+...
+
+### Section X: ...
+
